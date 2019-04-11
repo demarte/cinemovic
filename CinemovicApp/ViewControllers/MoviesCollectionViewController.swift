@@ -84,7 +84,7 @@ final class MoviesCollectionViewController: UIViewController {
   // MARK: - movieCountLabel methods
 
   private func updateMovieCountLabel() {
-    movieCountLabel.text = movies.count > 1 ? "\(movies.count) movies found" : "1 movie found"
+    movieCountLabel.text = movies.count > 1 ? "\(movies.count) movies found" : "\(movies.count) movie found"
   }
 
   // MARK: - Segue
@@ -133,7 +133,6 @@ UICollectionViewDelegateFlowLayout, UISearchResultsUpdating {
           self.fetchContentForSearchTerm(textWithoutWhitespaces)
         }
         debouncer.debounce()
-        fetchContentForSearchTerm(textWithoutWhitespaces)
       }
     }
   }
