@@ -37,6 +37,7 @@
 /* Begin PBXFileReference section */
 		22140074225252D800B436E8 /* Debouncer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Debouncer.swift; sourceTree = "<group>"; };
 		2228754E224BF69D00E35DEF /* CustomImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomImageView.swift; sourceTree = "<group>"; };
+		22440DAE225F939800C666C7 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		226F5BFC225637620032BBFC /* PosterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PosterViewController.swift; sourceTree = "<group>"; };
 		226F5BFE225637F40032BBFC /* OverviewTextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverviewTextViewController.swift; sourceTree = "<group>"; };
 		226F5C0022564A810032BBFC /* Genre.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Genre.swift; sourceTree = "<group>"; };
@@ -137,6 +138,7 @@
 		22BF946B22492AB7001CD57E = {
 			isa = PBXGroup;
 			children = (
+				22440DAE225F939800C666C7 /* README.md */,
 				22BF947622492AB7001CD57E /* CinemovicApp */,
 				22BF947522492AB7001CD57E /* Products */,
 			);
